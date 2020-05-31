@@ -15,7 +15,13 @@ public class Animal {
         System.out.println(name + " " + color + " " + age);
     }
 
-    public void jump(){
-        System.out.println(name + "jump");
+    public void run() {
+        System.out.println(name + "run");
     }
+
+    public void swim() {
+        System.out.println(name + "swim");
+    }
+
+
 }
